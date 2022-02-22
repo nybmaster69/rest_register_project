@@ -43,8 +43,10 @@ INSTALLED_APPS = [
     # modules
     'rest_framework',
     'rest_framework.authtoken',
+
     # custom apps
     'applications.account',
+    'applications.product',
 ]
 
 MIDDLEWARE = [
